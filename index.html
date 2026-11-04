@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSoluções - Inovação e Tecnologia</title>
+    <!-- Vínculo com o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Inter do Google Fonts para legibilidade e visual moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header com navegação e logo -->
+    <header>
+        <div class="header-container">
+            <img src="https://placehold.co/150x50/1e231c/8bf752?text=TechSoluções" alt="Logotipo oficial da empresa TechSoluções">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Nossos Serviços</a></li>
+                    <li><a href="#precos">Planos</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#orcamento" class="btn-nav">Solicitar Orçamento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Home com imagem de fundo, frase em duas linhas e alinhada à esquerda -->
+<!-- Seção Home com imagem de fundo, frase em duas linhas e alinhada à esquerda -->
+        <section id="home" class="home-section">
+            <div class="section-container">
+                <h1>Bem-vindo à<br>TechSoluções</h1>
+                <p class="home-subtitle-hero">Somos uma empresa dedicada a transformar negócios por meio da tecnologia.</p>
+            </div>
+        </section>
+
+        <!-- Hero / Seção Sobre Nós -->
+        <section id="sobre" class="hero-section">
+            <div class="section-container">
+                <span class="badge">Inovação e Performance</span>
+                <p class="subtitle">Somos uma empresa dedicada a transformar negócios por meio da tecnologia. Nossos pilares fundamentais de atuação são:</p>
+                
+                <ol class="pillars-list">
+                    <li>
+                        <span class="step-num">01</span>
+                        <div>
+                            <strong>Inovação constante</strong>
+                            <p>Desenvolvimento e otimização contínua de processos e sistemas.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step-num">02</span>
+                        <div>
+                            <strong>Segurança e integridade</strong>
+                            <p>Proteção total para os dados corporativos da sua empresa.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step-num">03</span>
+                        <div>
+                            <strong>Suporte especializado</strong>
+                            <p>Atendimento rápido, eficiente e altamente humanizado.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos">
+            <div class="section-container">
+                <h2>Nossos Serviços</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de Sites Institucionais e plataformas E-commerce focadas em alta conversão.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Aplicativos Mobile</h3>
+                        <p>Criação e manutenção de aplicativos nativos e híbridos para Android e iOS.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">☁️</div>
+                        <h3>Consultoria em TI & Cloud</h3>
+                        <p>Especialistas prontos para otimizar sua infraestrutura e migração para a nuvem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Tabela de Preços -->
+        <section id="precos">
+            <div class="section-container">
+                <h2>Tabela de Planos e Valores</h2>
+                <p class="section-desc">Planos mensais de suporte e infraestrutura adaptados ao seu tamanho.</p>
+                
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Plano</th>
+                                <th scope="col">Capacidade / Recurso</th>
+                                <th scope="col">Valor Mensal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong class="plan-name">Starter</strong></td>
+                                <td>Até 10 usuários</td>
+                                <td><span class="price">R$ 49,90</span></td>
+                            </tr>
+                            <tr class="featured-row">
+                                <td><strong class="plan-name">Business <span class="badge-sm">Popular</span></strong></td>
+                                <td>Até 50 usuários</td>
+                                <td><span class="price highlight">R$ 149,90</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong class="plan-name">Enterprise</strong></td>
+                                <td>Ilimitado</td>
+                                <td><span class="price">R$ 299,90</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Localização -->
+        <section id="localizacao">
+            <div class="section-container">
+                <h2>Onde Nos Encontrar</h2>
+                <p class="section-desc">Conheça nossa sede ou navegue pelo mapa interativo abaixo:</p>
+                
+                <div class="map-card">
+                    <iframe 
+                        width="100%" 
+                        height="350" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064123456!2d-43.1728965!3d-22.9068467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU0JzI0LjYiUyA0M8KwMTAnMjIuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        title="Mapa de localização da sede da TechSoluções">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formulário -->
+        <section id="orcamento">
+            <div class="section-container">
+                <div class="form-card">
+                    <h2>Solicite um Orçamento</h2>
+                    <p class="form-subtitle">Preencha o formulário e nossa equipe entrará em contato em breve.</p>
+
+                    <form action="#" method="POST" name="formOrcamentoInstitucional">
+                        <fieldset>
+                            <legend>Dados para Contato</legend>
+
+                            <div class="input-group">
+                                <label for="txtNome">Nome Completo</label>
+                                <input type="text" id="txtNome" name="nome_cliente" required minlength="5" placeholder="Digite seu nome completo">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="txtEmail">E-mail Corporativo</label>
+                                <input type="email" id="txtEmail" name="email_contato" required placeholder="seuemail@empresa.com">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="selServico">Serviço Desejado</label>
+                                <select id="selServico" name="tipo_servico" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="web">Desenvolvimento Web</option>
+                                    <option value="mobile">Aplicativo Mobile</option>
+                                    <option value="consultoria">Consultoria em TI</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="txtMensagem">Detalhes do Projeto</label>
+                                <textarea id="txtMensagem" name="mensagem_projeto" rows="4" maxlength="300" required placeholder="Descreva brevemente sua necessidade..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">Enviar Solicitação</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 TechSoluções - Todos os direitos reservados.</p>
+            <p class="social-links">
+                Siga nossas redes: 
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> 
+                <span>•</span>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
